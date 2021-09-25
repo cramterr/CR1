@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;   user-scalable=0;" name="viewport">
+  <title>Roles</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel='stylesheet' href='/styles.css'/>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <p class="navbar-brand">MAFIA</p>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/howtoplay.html">How to Play</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/pages/roles.html">Roles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/gamebeta.html">Gameplay Example</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+
+  <div class='page'>
+    <div class='content'>
+      <h1>ROLES</h1>
+      <div class='roles'>
+        <div class='town-roles'>
+          <h2>TOWN</h2>
+          <hr>
+          <div class='role'>
+            <div class='role-profile'>
+              <div class='role-name'>Bystander</div>
+              <img src="/images/townprofile.png" alt="town profile">
+            </div>
+            <div class='role-desc'>
+              The Bystander is just a regular member of the town. They sleep during
+              the night and vote on who to eliminate during the day.
+            </div>
+          </div>
+          <div class='role'>
+            <div class='role-profile'>
+              <div class='role-name'>Doctor</div>
+              <img src="/images/townprofile.png" alt="town profile">
+            </div>
+            <div class='role-desc'>
+              The Doctor acts just like a Bystander with the added ability to select
+              one player during the night to be protected from any potential mafia attacks.
+            </div>
+          </div>
+          <div class='role'>
+            <div class='role-profile'>
+              <div class='role-name'>Seer</div>
+              <img src="/images/townprofile.png" alt="town profile">
+            </div>
+            <div class='role-desc'>
+              The Seer acts just like a Bystander with the added ability to select
+              one player during the night to investigate. The investigation will indicate
+              whether that player is a member of the town or a member of the mafia.
+            </div>
+          </div>
+        </div>
+        <div class='mafia-roles'>
+          <h3>MAFIA</h3>
+          <hr>
+          <div class='role'>
+            <div class='role-profile'>
+              <div class='role-name'>Mafioso</div>
+              <img src="/images/mafiaprofile.png" alt="mafia profile">
+            </div>
+            <div class='role-desc'>
+              The Mafioso is the grunt of the mafia. During the night they will
+              eliminate a member of the town. During the day they act as innocent
+              Bystanders and can participate in the vote to eliminate another player.
+            </div>
+          </div>
+          <div class='role'>
+            <div class='role-profile'>
+              <div class='role-name'>GodFather</div>
+              <img src="/images/mafiaprofile.png" alt="mafia profile">
+            </div>
+            <div class='role-desc'>
+              The GodFather plays just like the Mafioso with the added ability that
+              they appear as a member of the town if the Seer investigates them.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='footer'>
+      <a href="https://github.com/BYUCS260/lab-1-photography-website-cramterr">
+        https://github.com/BYUCS260/lab-1-photography-website-cramterr
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>

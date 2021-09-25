@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position:relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #676767;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
+  align-content: center;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.nav-link {
+  font-family: sans-serif;
+  color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
+.active {
+  border-bottom: 3px solid red;
+}
+
+.navbar-brand {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: red !important;
+  border: 3px solid red;
+  padding: 3px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+  background-color: #676767;
+}
+
+.content {
+  width: 75%;
+  flex-wrap: wrap;
+}
+
+.content p {
+  color: black;
+  font-size: 18px;
+}
+
+h1 {
+  color: #8E0A0A;
+  font-weight: bolder;
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 200%;
+  color: #122D56;
+}
+
+h3 {
+  font-size: 200%;
+  color: #561412;
+}
+
+strong {
+  font-weight: normal;
+  color: #561412;
+}
+
+em {
+  font-style: normal;
+  color: #122D56;
+}
+
+.bottom-logo {
+  height: 200px;
+  width: auto;
+}
+
+.play-now {
+  width: 300px;
+  height: 100px;
+  border: 3px solid black;
+  background-color: #8E0A0A;
+  color: black;
+  font-size: 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.play-now:hover {
+  border-color: white;
+}
+
+.play-now:active {
+  background-color: black;
+  color: #8E0A0A;
+}
+
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.town-roles,
+.mafia-roles {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.role {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.role-desc {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.role-profile img {
+  max-height: 200px;
+  width: auto;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.role-name {
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+
+.player-role {
+  left: 0;
+  top: 0;
+  margin: 20px;
+}
+
+.elimination-sel {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.player-name {
+  margin-top: 20px;
+}
+
+.elimination-sel img:hover {
+  border-color: white;
+}
+
+.elimination-sel img:active {
+  border-color: red;
+}
+
+.skip-vote {
+  width: 100px;
+  height: 50px;
+  border: 3px solid black;
+  background-color: #8E0A0A;
+  color: black;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.skip-vote:hover {
+  border-color: white;
+}
+
+.skip-vote:active {
+  background-color: black;
+  color: #8E0A0A;
+}
+
+.vote-icon img {
+  background-color: #676767;
+  border: none;
+  height: 30px;
+  width: auto;
+}
+
+.time {
+  color: #8E0A0A;
+  font-size: 200%;
+}
+
+.instruction {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+}
